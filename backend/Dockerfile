@@ -13,4 +13,4 @@ ENV DB_HOST="mysql"
 WORKDIR /opt/backend
 USER expense
 COPY --from=builder /opt/backend /opt/backend
-CMD["node","index.js"]
+CMD ["node","index.js"]
